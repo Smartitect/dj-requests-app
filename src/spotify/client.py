@@ -86,7 +86,7 @@ class SpotifyClient:
     # Search (Client Credentials)
     # ------------------------------------------------------------------
 
-    def search_tracks(self, query: str, limit: int = 20) -> pl.DataFrame:
+    def search_tracks(self, query: str, limit: int = 10) -> pl.DataFrame:
         """Search the Spotify catalogue and return matching tracks as a DataFrame."""
         resp = httpx.get(
             f"{self._API}/search",
@@ -122,7 +122,7 @@ class SpotifyClient:
             {
                 "id": p["id"],
                 "name": p["name"],
-                "track_count": p["tracks"]["total"],
+                "track_count": (p.get("tracks") or {}).get("total", 0),
                 "public": p["public"],
             }
             for p in resp.json()["items"]
@@ -173,9 +173,9 @@ class SpotifyClient:
                 "artists": ", ".join(a["name"] for a in t["artists"]),
                 "album": t["album"]["name"],
                 "release_date": t["album"]["release_date"],
-                "duration_ms": t["duration_ms"],
-                "popularity": t["popularity"],
-                "explicit": t["explicit"],
+                "duration_ms": t.get("duration_ms"),
+                "popularity": t.get("popularity"),
+                "explicit": t.get("explicit"),
                 "thumbnail_url": images[-1]["url"] if images else None,
             })
         return pl.DataFrame(rows)
