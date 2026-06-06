@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": "37i9dQZF1DXcBWIGoYBM5M",
+      "name": "DJ Requests",
+      "tracks": {"total": 3},
+      "public": true
+    },
+    {
+      "id": "37i9dQZF1DXdPec7aLTmlC",
+      "name": "My Mix",
+      "tracks": {"total": 20},
+      "public": false
+    }
+  ]
+}

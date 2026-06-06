@@ -1,0 +1,25 @@
+{
+  "tracks": {
+    "items": [
+      {
+        "id": "1mQcnNBuW9R9b0lSy5IKrV",
+        "uri": "spotify:track:1mQcnNBuW9R9b0lSy5IKrV",
+        "name": "Under Pressure",
+        "duration_ms": 248000,
+        "explicit": false,
+        "popularity": 73,
+        "album": {
+          "name": "Hot Space",
+          "release_date": "1982-05-21",
+          "images": [
+            {"url": "https://i.scdn.co/image/ab67616d0000b273hs.jpg", "height": 640, "width": 640}
+          ]
+        },
+        "artists": [
+          {"id": "1dfeR4HaWDbWqFHLkxsg1d", "name": "Queen"},
+          {"id": "0oSGxfWSnnOXhD2fKuz2Gy", "name": "David Bowie"}
+        ]
+      }
+    ]
+  }
+}

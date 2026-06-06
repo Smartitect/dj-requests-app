@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "track": {
+        "id": "4iJyoBOLtHqaWYs3827K6V",
+        "uri": "spotify:track:4iJyoBOLtHqaWYs3827K6V",
+        "name": "Sweet Home Chicago",
+        "duration_ms": 178000,
+        "explicit": false,
+        "popularity": 62,
+        "album": {
+          "name": "The Blues Brothers",
+          "release_date": "1980-01-01",
+          "images": [
+            {"url": "https://i.scdn.co/image/ab67616d0000b273large.jpg", "height": 640, "width": 640}
+          ]
+        },
+        "artists": [
+          {"id": "7jy3rLJdDQY21OgRLCZ9sD", "name": "Blues Brothers"}
+        ]
+      }
+    }
+  ]
+}

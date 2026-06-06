@@ -1,0 +1,22 @@
+{
+  "tracks": {
+    "items": [
+      {
+        "id": "abc123xyz",
+        "uri": "spotify:track:abc123xyz",
+        "name": "Test Track",
+        "duration_ms": 180000,
+        "explicit": false,
+        "popularity": 10,
+        "album": {
+          "name": "Test Album",
+          "release_date": "2020-01-01",
+          "images": []
+        },
+        "artists": [
+          {"id": "xyz789", "name": "Test Artist"}
+        ]
+      }
+    ]
+  }
+}

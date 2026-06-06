@@ -1,0 +1,50 @@
+{
+  "tracks": {
+    "href": "https://api.spotify.com/v1/search?query=Sweet+Home+Chicago&type=track&limit=20",
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 42,
+    "items": [
+      {
+        "id": "4iJyoBOLtHqaWYs3827K6V",
+        "uri": "spotify:track:4iJyoBOLtHqaWYs3827K6V",
+        "name": "Sweet Home Chicago",
+        "duration_ms": 178000,
+        "explicit": false,
+        "popularity": 62,
+        "album": {
+          "name": "The Blues Brothers",
+          "release_date": "1980-01-01",
+          "images": [
+            {"url": "https://i.scdn.co/image/ab67616d0000b273large.jpg", "height": 640, "width": 640},
+            {"url": "https://i.scdn.co/image/ab67616d00001e02small.jpg", "height": 64, "width": 64}
+          ]
+        },
+        "artists": [
+          {"id": "7jy3rLJdDQY21OgRLCZ9sD", "name": "Blues Brothers"}
+        ]
+      },
+      {
+        "id": "5tXhobHBrNzR3qVXfKoJGm",
+        "uri": "spotify:track:5tXhobHBrNzR3qVXfKoJGm",
+        "name": "Sweet Home Chicago",
+        "duration_ms": 206000,
+        "explicit": false,
+        "popularity": 45,
+        "album": {
+          "name": "Robert Johnson: The Complete Recordings",
+          "release_date": "1990-08-28",
+          "images": [
+            {"url": "https://i.scdn.co/image/ab67616d0000b273rj.jpg", "height": 640, "width": 640},
+            {"url": "https://i.scdn.co/image/ab67616d00001e02rj.jpg", "height": 64, "width": 64}
+          ]
+        },
+        "artists": [
+          {"id": "3TKVpbNB5AKKmZvfZa7ELY", "name": "Robert Johnson"}
+        ]
+      }
+    ]
+  }
+}
